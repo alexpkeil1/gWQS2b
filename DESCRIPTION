@@ -3,7 +3,7 @@ Type: Package
 Title: Generalized Weighted Quantile Sum Regression
 Version: 2.0.0
 Author: Alex Keil
-Maintainer: NA
+Maintainer: Stefano Renzetti <stefano.renzetti88@gmail.com>
 Description: Exact copy of gwqs package v2.0 from CRAN, except that variable scoping issue has been resolved to facilitate simulations
 Imports: Rsolnp, ggplot2, dplyr, stats, broom, rlist, MASS, reshape2,
         plotROC, knitr, kableExtra, nnet, future, future.apply,
