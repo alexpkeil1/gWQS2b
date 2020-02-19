@@ -1,0 +1,20 @@
+Package: gWQS2b
+Type: Package
+Title: Generalized Weighted Quantile Sum Regression
+Version: 2.0.0
+Author: Alex Keil
+Maintainer: NA
+Description: Exact copy of gwqs package v2.0 from CRAN, except that variable scoping issue has been resolved to facilitate simulations
+Imports: Rsolnp, ggplot2, dplyr, stats, broom, rlist, MASS, reshape2,
+        plotROC, knitr, kableExtra, nnet, future, future.apply,
+        ggrepel, pscl
+License: GPL (>= 2)
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: gridExtra, VGAM, AER, rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2019-08-27 12:22:20 UTC; stefanorenzetti
+Repository: Github
+Date/Publication: 2019-08-27 12:40:02 UTC

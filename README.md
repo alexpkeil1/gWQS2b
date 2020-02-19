@@ -1,0 +1,1 @@
+Exact copy of gWQS v2.0 from CRAN, except that a variable scoping issue was fixed to facilitate simulations
