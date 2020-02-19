@@ -197,7 +197,7 @@ gwqs <- function(formula, data, na.action, weights, mix_name, stratified, valid_
   dtf <- mc[c(1, m)]
   dtf[[2]] <- data
   dtf[[1]] <- as.name("select_vars")
-  #dtf <- eval(dtf, environment(gwqs))
+  dtf <- eval(dtf, environment(gwqs))
 
   # select rows of the original dataset based on rows selected with na.action
 
